@@ -5,22 +5,22 @@ function Socialmedia() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://github.com/raghavcpp" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/raghavcpp" target="_blank" rel="noopener noreferrer"style={{ textDecoration: "none", color: "inherit" }}>
             <SiGithub />
             </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://x.com/Raghavcpp" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/Raghavcpp" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
             <SiTwitter />
             </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://www.linkedin.com/in/raghav-cpp/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/raghav-cpp/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
             <SiLinkedin />
             </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://www.instagram.com/raghav_reincarnation" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/raghav_reincarnation" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
             <SiInstagram />
             </a>
         </Col>
