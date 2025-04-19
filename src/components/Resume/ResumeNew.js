@@ -7,7 +7,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const pdf = "https://docs.google.com/document/d/14WEOOu6kki90LpOddHZEFI5fPusmRIj9gDxcClPvMKI/export?format=pdf";
-
+const docx= "https://docs.google.com/document/d/14WEOOu6kki90LpOddHZEFI5fPusmRIj9gDxcClPvMKI/export?format=docx";
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -27,7 +27,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download CV PDF
           </Button>
         </Row>
 
@@ -46,12 +46,12 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={docx}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download CV DOCX
           </Button>
         </Row>
       </Container>
